@@ -52,8 +52,7 @@ public class PigLatin {
   		else if (sWord.substring(0, 2).equals("qu")){
    			 return sWord.substring(2) + "qu" + "ay";
  		 }
-  		else
+  		else {
    			 return sWord.substring(firstVowel) + sWord.substring(0, firstVowel) + "ay";
-  	  }
-    }//end PigLatin class
+  	         }
 }

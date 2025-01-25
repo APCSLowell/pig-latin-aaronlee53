@@ -55,4 +55,6 @@ public class PigLatin {
   		else
    			 return sWord.substring(firstVowel) + sWord.substring(0, firstVowel) + "ay";
     
-}//end PigLatin class
+
+    }//end PigLatin class
+}
